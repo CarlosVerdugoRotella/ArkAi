@@ -1,0 +1,47 @@
+INTRODUCCIÓN;;;;;;;;;;;;;;;;
+Los cálculos que se realizan con esta planilla, corresponden al procedimiento descrito en la NCh1973/2014, con los criterios de cálculo de DITEC utilizando datos climáticos prestablecidos. Esta norma presenta métodos de cálculo simplificados, que consideran que el transporte de humedad es solamente mediante la difusión de vapor.;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+CRITERIOS Y CONDICIONES PARA EL CÁLCULO;;;;;;;;;;;;;;;;
+1;"Se deberá verificar la disminución del riesgo de condensación superficial e intersticial, comparando los resultados del cálculo de la solución constructiva original y de la solución constructiva proyectada para las condiciones de cálculo de punto 4;";;;;;;;;;;;;;;;
+2;"Se analizará el riesgo de condensación superficial e intersticial;";;;;;;;;;;;;;;;
+3;"El análisis se realizará en el mes más desfavorable del año, Julio;";;;;;;;;;;;;;;;
+4;El cálculo se realizará bajo las siguientes condiciones:;;;;;;;;;;;;;;;
+;a.;"Como mínimo, se debe realizar el análisis de riesgo de condensación a las secciones con menor y mayor resistencia térmica total de la solución constructiva;";;;;;;;;;;;;;;
+;b.;"Temperatura Interior: 19°C;";;;;;;;;;;;;;;
+;c.;"Temperatura Exterior: media mínima mensual (Julio) de la provincia;";;;;;;;;;;;;;;
+;d.;"Humedad Relativa Interior: 65%, 75% y 80%;";;;;;;;;;;;;;;
+;e.;"Humedad Relativa Exterior: asociada a la temperatura media mínima de la provincia;";;;;;;;;;;;;;;
+;f.;"Como prioridad se utilizarán datos de materiales obtenidos mediante ensayos incluidos en hoja MATERIALES, incluidos en normas chilenas y a falta de los anteriores, de normas extranjeras;";;;;;;;;;;;;;;
+;g.;Humedad Relativa Superficial Crítica, ?sicr: 1 (100%).;;;;;;;;;;;;;;
+INSTRUCCIONES DE USO PLANILLA;;;;;;;;;;;;;;;;
+"- La planilla permite analizar un caso base y uno proyectado en hasta dos secciones distintas de una solución constructiva. Las celdas editables son todas aquellas que no tengan fondo blanco.
+- Para comenzar, se debe ir a la primera tabla de la hoja MATERIALES y preseleccionar todos los materiales que se usarán para los cálculos. Para ello, por cada material a especificar se debe elegir un origen de datos (tabla) y en la columna NOMBRE Y/O DESCRIPCIÓN seleccionar el material buscado. De manera opcional se puede indicar un nombre abreviado que se mostrará en los gráficos. Por último, se debe indicar el espesor del material y su conductividad térmica. Si estos datos no son ingresados, no se podrá asignar el material en las hojas de cálculo (""Seccion1"" y ""Seccion2""). Los materiales se deben seleccionar tantas veces como espesores se vayan a utilizar en los cálculos, por ejemplo yeso cartón espesor = 0,01 m y yeso cartón espesor = 0,015 m.
+- Es posible agregar materiales nuevos o de uso local a la biblioteca de materiales mediante la tabla ""Materiales definidos por usuario"", llenando los datos que se indican. Estos materiales podrán ser seleccionados posteriormente en la tabla de más arriba según lo indicado previamente. Todos los datos deben ser ingresados respetando las unidades de medida correspondientes. En caso de requerir ayuda en la conversión de unidades se puede utilizar la hoja ANEXO CÁLCULOS.
+- En las hojas Seccion1 y Seccion2 se deben llenar los datos relativos al proyecto y profesional encargado del cálculo. Luego, se debe indicar una breve descripción del sistema constructivo o sección analizada tanto para el caso base como al proyectado. Para efectuar los cálculos es necesario indicar la dirección de flujo de calor y las condiciones climáticas exteriores, las cuales están asociadas a la zona térmica y comuna de emplazamiento. En ambas hojas, para el caso proyectado existe una casilla de verificación que permite utilizar los mismos datos de temperatura y humedad que hayan sido elegidos para el caso base. Si se desmarca esta casilla, se puede elegir una ubicación o una dirección de flujo diferentes.
+- En el apartado de materiales que componen la solución constructiva se deben abrir la lista desplegable y seleccionar los materiales que correspondan, ordenados desde el exterior al interior, comenzando en la primera fila y sin dejar espacios en blanco entremedio. Al ir completando la información, se puede observar de forma inmediata el espesor y la resistencia térmica total (incluyendo las resistencias superficiales correspondientes). NOTA: Si en algún momento se realiza un cambio en la hoja Materiales a algún material seleccionado en las hojas Seccion1 o Seccion2, se deberá volver a seleccionar el material de la lista desplegable o el material no será reconocido. 
+- En el apartado de Resultados se puede observar una tabla resumen respecto de si existe riesgo de condensación para las humedades relativas de cálculo y los gráficos de perfil de temperatura y presión de vapor de agua al interior de cada solución constructiva. De manera adicional, al presionar los botones de ""Calcular HR Cond"" la planilla mostrará la humedad relativa a partir de la cual comienza a manifestarse condensación.
+- Finalmente, la planilla arroja una evaluación respecto de si el caso proyectado disminuye o no el riesgo de condensación tanto para el caso superficial como para el caso intersticial.
+- Las hojas de cálculo Sección1 y Sección2 se deben imprimir y/o guardar como PDF con formato de formulario (3 páginas tamaño carta cada una).";;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
